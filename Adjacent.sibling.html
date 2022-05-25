@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendent selector</title>
+    <style type="text/css">
+
+         p + a{
+        border:2px solid red; <!--we need just + between sibblings and siblings-->
+            }
+    
+    
+    
+    </style>
+</head>
+<body> <!--If i say div then all tags under main div are descendent
+if i say header then all the tags under header ared descendent-->
+    <div>
+         <header>
+        <h1 >Heading text 1</h1>
+        <p>Paragraph text 1</p>
+        <a href="#">hyper link 1</a>
+         </header>
+         <div>
+             <p>Paragraph text 2</p>
+             <a href="#">Hyper link 2</a>
+         </div>
+         <footer>
+             <h1>Heading text 3</h1>
+             <p>Paragraph text 3</p>
+             <a href="#">Hyepe link 3 </a>
+         </footer>
+    </div>
+</body>
+</html>
